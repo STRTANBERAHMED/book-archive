@@ -66,7 +66,7 @@ function showData(bookArray) {
     <h1>${item.title}</h1>
 <p>Author Name: ${item.author_name}</p>
 <p>Publisher: ${item.publisher}</p>
-<p>Publish Date: ${item.publish_date}</p>
+<p>First Publish Date: ${item.first_publish_year}</p>
             `;
         bookContainer.appendChild(div2);
     });
